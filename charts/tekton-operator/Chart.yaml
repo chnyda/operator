@@ -1,13 +1,11 @@
 apiVersion: v2
-name: tekton-operator
+appVersion: v0.71.0
 description: A Helm chart to deploy the Tekton Operator and its CRDs
+maintainers:
+- email: jack.henschel@cern.ch
+  name: Jack Henschel
+name: tekton-operator
+sources:
+- https://github.com/tektoncd/operator
 type: application
 version: 0.71.0
-# corresponds to the version of tekton-operator
-# https://github.com/tektoncd/operator/releases
-appVersion: "v0.71.0"
-maintainers:
-  - name: Jack Henschel
-    email: jack.henschel@cern.ch
-sources:
-  - https://github.com/tektoncd/operator
